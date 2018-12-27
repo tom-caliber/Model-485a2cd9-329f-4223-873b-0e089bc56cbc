@@ -1,0 +1,12 @@
+entity Tags{
+name String
+tagtype TagType
+}
+
+enum  TagType{
+BUSINESS_OBJECTIVE,AI_CAPABLITIES,DATA_SCIENCE_METHOD,BUSINESS_UNIT,CUSTOM
+}
+
+
+dto * with mapstruct 
+service * with serviceImpl
